@@ -16,7 +16,56 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
+    <header class="header">
+      <a class="logo" href="#0">
+        <img class="logo__icon" alt="Логотип" src="./svg/icon.svg" />
+        <span class="logo__text">Ink. House</span>
+      </a>
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-list-item">
+            <a href="#0">Репродукции</a>
+          </li>
+          <li class="header__menu-list-item">
+            <a href="#0">Новинки</a>
+          </li>
+          <li class="header__menu-list-item">
+            <a href="#0">О нас</a>
+          </li>
+        </ul>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 22 22"
+          fill="none"
+          class="shopping-cart-icon"
+          aria-label="Корзина"
+        >
+          <use href="./svg/shopping-cart.svg#shopping-cart"></use>
+        </svg>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <img
+          class="hero__img"
+          alt="Голубь на ветке"
+          src="./images/pigeon.png"
+        />
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Реплики картин от <span class="hero__title_accent">Ink. House</span>
+          </h1>
+          <p class="hero__desc">
+            Высокое качество отрисовки на плотной бумаге или льняном холсте.
+            Редкие произведения, доступные цены.
+          </p>
+          <button class="hero__button" type="button">Продукция</button>
+        </div>
+      </section>
+      <section class="catalog"></section>
+      <section class="promo"></section>
+      <section class="team"></section>
+    </main>
+    <footer class="footer"></footer>
   </body>
 </html>
-
-

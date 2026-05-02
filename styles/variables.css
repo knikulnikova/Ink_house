@@ -1,5 +1,11 @@
 :root {
-
+  --main-font-family: 'Raleway';
+  --main-text-font-weight: 500;
+  --main-text-color: #2C2D35;
+  --main-text-font-size: 18px;
+  --logo-font-weight: 700;
+  --logo-font-size: 20px;
+  --menu-font-size: 20px;
 }
 
 /* @media (width <= 690px) {
