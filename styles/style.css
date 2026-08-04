@@ -158,7 +158,7 @@
   object-fit: cover;
   object-position: center;
   inline-size: 100%;
-  min-block-size: 421px;
+  block-size: 421px;
 }
 
 .card__desc-author {
