@@ -53,7 +53,8 @@
         />
         <div class="hero__content">
           <h1 class="hero__title">
-            Реплики картин<br> от <span class="hero__title_accent">Ink. House</span>
+            Реплики картин<br />
+            от <span class="hero__title_accent">Ink. House</span>
           </h1>
           <p class="hero__desc">
             Высокое качество отрисовки на плотной бумаге или льняном холсте.
@@ -67,45 +68,120 @@
           <h2 class="catalog__title">Репродукции</h2>
           <ul class="catalog__menu-list">
             <li class="catalog__menu-list-item">
-              <button class="catalog__menu-button catalog__menu-button_active" type="button" data-country="france">Франция</button>
+              <button
+                class="catalog__menu-button catalog__menu-button_active"
+                type="button"
+                data-country="france"
+              >
+                Франция
+              </button>
             </li>
             <li class="catalog__menu-list-item">
-              <button class="catalog__menu-button" type="button" data-country="germany">Германия</button>
+              <button
+                class="catalog__menu-button"
+                type="button"
+                data-country="germany"
+              >
+                Германия
+              </button>
             </li>
             <li class="catalog__menu-list-item">
-              <button class="catalog__menu-button" type="button" data-country="england">Англия</button>
+              <button
+                class="catalog__menu-button"
+                type="button"
+                data-country="england"
+              >
+                Англия
+              </button>
             </li>
           </ul>
         </div>
-        <ul class="catalog__card-list">
-        </ul>
+        <ul class="catalog__card-list"></ul>
       </section>
-      <section class="promo"></section>
-      <section class="team"></section>
+      <section class="promo">
+        <div class="promo__container">
+          <div class="promo__header">
+            <img
+              class="promo__icon"
+              alt=""
+              aria-hidden="true"
+              src="./svg/star.svg"
+            />
+            <h2 class="promo__title">Новая коллекция французских авторов</h2>
+          </div>
+          <div class="promo__desc">
+            <p class="promo__text">
+              Сложно сказать, почему акционеры крупнейших компаний призывают нас
+              к новым свершениям, которые, в свою очередь, должны быть
+              заблокированы в рамках своих собственных рациональных ограничений.
+            </p>
+            <p class="promo__text">
+              Принимая во внимание показатели успешности, граница обучения
+              кадров предопределяет высокую востребованность направлений
+              прогрессивного развития.
+            </p>
+          </div>
+          <button class="promo__button" type="button">Ознакомиться</button>
+        </div>
+      </section>
+      <section class="team">
+        <img
+          class="team__img"
+          alt="Художественные кисти в руке"
+          src="./images/about-img.png"
+        />
+        <div class="team__content">
+          <h2 class="team__title">Наша команда</h2>
+          <p class="team__desc">
+            Значимость этих проблем настолько очевидна, что базовый вектор
+            развития позволяет оценить значение экспериментов, поражающих по
+            своей масштабности и грандиозности. Мы вынуждены отталкиваться от
+            того, что консультация с широким активом.
+          </p>
+          <ul class="team__list">
+            <li class="team__list-item">
+              <img
+                class="team__avatar"
+                alt="Член команды"
+                src="./images/cat1.jpg"
+              />
+            </li>
+            <li class="team__list-item">
+              <img
+                class="team__avatar"
+                alt="Член команды"
+                src="./images/cat2.jpg"
+              />
+            </li>
+            <li class="team__list-item">
+              <img
+                class="team__avatar"
+                alt="Член команды"
+                src="./images/cat3.jpg"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer class="footer"></footer>
 
     <!-- ТЕМПЛЕЙТЫ -->
 
-     <template id="card-list-item-template">
+    <template id="card-list-item-template">
       <li class="catalog__card-list-item">
-            <article class="card">
-            <img
-            class="card__img"
-            alt=""
-            src=""
-            loading="lazy"
-            />
-            <div class="card__desc">
-              <p class="card__desc-author"></p>
-              <h3 class="card__desc-title"></h3>
-              <p class="card__desc-props"></p>
-              <p class="card__desc-price"></p>
-              <button class="card__button" type="button"></button>
-            </div>
-            </article>
-          </li>
-     </template>
-     <script type="module" src="./scripts/main.js"></script>
+        <article class="card">
+          <img class="card__img" alt="" src="" loading="lazy" />
+          <div class="card__desc">
+            <p class="card__desc-author"></p>
+            <h3 class="card__desc-title"></h3>
+            <p class="card__desc-props"></p>
+            <p class="card__desc-price"></p>
+            <button class="card__button" type="button"></button>
+          </div>
+        </article>
+      </li>
+    </template>
+    <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>
